@@ -1,3 +1,5 @@
+package tech.kevin.ex;
+
 import java.util.Scanner;
 
 public class Bee1035 {

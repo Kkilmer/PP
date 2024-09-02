@@ -1,5 +1,6 @@
+package tech.kevin.ex;
+
 import java.util.Scanner;
-import java.util.Iterator;
 
 public class Bee1067 {
     public static void main(String[] args) {
@@ -9,6 +10,8 @@ public class Bee1067 {
         for (int i = 1; i <= valorX; i++) {
             if (i % 2 != 0) {
                 System.out.println(i);
+            }else {
+                break;
             }
         }
     }
