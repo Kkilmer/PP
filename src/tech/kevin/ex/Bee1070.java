@@ -4,12 +4,14 @@ import java.util.Scanner;
 public class Bee1070 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        int valorX = leitor.nextInt();
-
-        for (int i = 1; i <= valorX; i++){
-            if (i % 2 != 0) {
-                System.out.println(i);
+        int X = leitor.nextInt();
+        int cont = 0;
+        while (cont < 6){
+            if (X % 2 == 1) {
+                System.out.println(X);
+                cont++;
             }
+            X++;
         }
     }
 }
