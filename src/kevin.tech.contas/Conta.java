@@ -1,8 +1,8 @@
 package kevin.tech.contas;
 
 public class Conta {
-    int numero;
-    double saldo;
+    private int numero;
+    private double saldo;
 
     public Conta(){
         System.out.println("Conta VAZIA criada!");
@@ -27,5 +27,21 @@ public class Conta {
             this.saldo = this.saldo + quantidade;
             return true;
         }
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
     }
 }
